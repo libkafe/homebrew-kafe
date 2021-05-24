@@ -1,9 +1,9 @@
 class Libkafe < Formula
   desc 'Kafe is an open-source scriptable systems automation toolkit'
   homepage 'https://github.com/libkafe/kafe'
-  url 'https://github.com/libkafe/kafe/archive/v1.1.3.tar.gz'
-  sha256 'fe36bc4256fd9495d3434bdc641403fd9724872fc18ac7172ac7aad5dbdd6fc6'
-  version '1.1.3'
+  url 'https://github.com/libkafe/kafe/archive/v1.1.5.tar.gz'
+  sha256 '8870309dba6e0f1a474ee19e6acf2a51c73f5cd350b16122c637c00f4d40aba7'
+  version '1.1.5'
   license 'Apache-2.0'
 
   depends_on 'cmake' => :build
