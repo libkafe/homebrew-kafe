@@ -38,7 +38,7 @@ class Libkafe < Formula
         end
     end
 
-    system 'cmake', '../..', *std_cmake_args
+    system 'cmake', '../..', '-DCMAKE_MACOSX_RPATH=OFF' ,*std_cmake_args
     system 'make'
     system 'make', 'install'
   end
